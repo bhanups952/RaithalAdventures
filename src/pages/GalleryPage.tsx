@@ -247,7 +247,7 @@ const GalleryPage: React.FC = () => {
           <div className="flex flex-col sm:flex-row gap-4 justify-center">
             <button
               onClick={() => {
-                const phoneNumber = '919876543210';
+                const phoneNumber = '918970308534';
                 const message =
                   'Hi! I saw your beautiful gallery and would like to book a trek to capture similar memories.';
                 const whatsappURL = `https://wa.me/${phoneNumber}?text=${encodeURIComponent(
