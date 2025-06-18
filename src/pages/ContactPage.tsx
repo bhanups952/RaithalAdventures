@@ -73,7 +73,7 @@ const ContactPage: React.FC = () => {
       title: 'WhatsApp Chat',
       description: 'Instant messaging for quick queries',
       action: () => {
-        const phoneNumber = '919876543210';
+        const phoneNumber = '918970308534';
         const message = 'Hi! I have a question about your trekking and homestay services.';
         const whatsappURL = `https://wa.me/${phoneNumber}?text=${encodeURIComponent(message)}`;
         window.open(whatsappURL, '_blank');
