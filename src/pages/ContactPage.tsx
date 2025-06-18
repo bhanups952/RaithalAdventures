@@ -344,7 +344,7 @@ const ContactPage: React.FC = () => {
                 <p className="text-sm text-gray-600 mb-3">Scan to chat with us instantly</p>
                 <button 
                   onClick={() => {
-                    const phoneNumber = '919876543210';
+                    const phoneNumber = '918970308534';
                     const message = 'Hi! I scanned your QR code and would like to inquire about your services.';
                     const whatsappURL = `https://wa.me/${phoneNumber}?text=${encodeURIComponent(message)}`;
                     window.open(whatsappURL, '_blank');
