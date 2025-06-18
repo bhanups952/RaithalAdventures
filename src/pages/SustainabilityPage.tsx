@@ -313,7 +313,7 @@ const SustainabilityPage: React.FC = () => {
             </button>
             <button 
               onClick={() => {
-                const phoneNumber = '919876543210';
+                const phoneNumber = '918970308534';
                 const message = 'Hi! I would like to learn more about your sustainability initiatives and how I can contribute.';
                 const whatsappURL = `https://wa.me/${phoneNumber}?text=${encodeURIComponent(message)}`;
                 window.open(whatsappURL, '_blank');
