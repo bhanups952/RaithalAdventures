@@ -403,7 +403,7 @@ const HomestayPage: React.FC = () => {
             </button>
             <button
               onClick={() => {
-                const phoneNumber = '919876543210';
+                const phoneNumber = '918970308534';
                 const message =
                   'Hi! I need more information about Raithal Homestay rates and availability. Can you help?';
                 const whatsappURL = `https://wa.me/${phoneNumber}?text=${encodeURIComponent(
