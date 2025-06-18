@@ -17,7 +17,7 @@ const ContactPage: React.FC = () => {
     e.preventDefault();
     // In a real app, you would send this to your backend
     const whatsappMessage = `Name: ${formData.name}\nEmail: ${formData.email}\nPhone: ${formData.phone}\nSubject: ${formData.subject}\nMessage: ${formData.message}`;
-    const phoneNumber = '919876543210';
+    const phoneNumber = '918970308534';
     const whatsappURL = `https://wa.me/${phoneNumber}?text=${encodeURIComponent(whatsappMessage)}`;
     window.open(whatsappURL, '_blank');
     
