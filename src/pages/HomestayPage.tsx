@@ -100,7 +100,7 @@ const HomestayPage: React.FC = () => {
     {
       title: 'Village Photography Tour',
       description:
-        'Guided photography tour capturing the essence of mountain village life.',
+        'Guided photography tour capturing the essence of mountain village life and mesmerizing mountains.',
       price: '₹800 per person',
       duration: '3-4 hours',
     },
