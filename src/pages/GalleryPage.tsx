@@ -6,7 +6,7 @@ const GalleryPage: React.FC = () => {
   useEffect(() => {
     const fetchImages = async () => {
       try {
-        const response = await fetch('AKfycbwPnk72Li7Y8uwY4MazyoXfbh9pBhHDrBzYC5fuqFq_'); // Replace with actual Apps Script URL
+        const response = await fetch('https://script.google.com/macros/s/AKfycbzttAXQO_0SnBvIgL9d_6vRbmcLxPnBhqadglnyeH9IQhj6SQupCRCW_EEsPhZY0yjSyA/exec'); // Replace with actual Apps Script URL
         const data = await response.json();
 
         const items = data.map((item: any, index: number) => ({
