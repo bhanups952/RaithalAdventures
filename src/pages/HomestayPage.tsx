@@ -35,11 +35,6 @@ const HomestayPage: React.FC = () => {
       description: 'Authentic Garhwali meals prepared with organic ingredients',
     },
     {
-      icon: Car,
-      name: 'Parking',
-      description: 'Secure parking space for your vehicle',
-    },
-    {
       icon: Coffee,
       name: 'Tea/Coffee',
       description: 'Complimentary tea and coffee throughout your stay',
