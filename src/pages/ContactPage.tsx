@@ -84,7 +84,7 @@ const ContactPage: React.FC = () => {
     {
       title: 'Emergency Contact',
       description: 'For urgent assistance during treks',
-      action: () => window.open('tel:+919876543210'),
+      action: () => window.open('tel:+918970308534'),
       icon: Phone,
       color: 'bg-red-500 hover:bg-red-600'
     },
