@@ -275,7 +275,7 @@ const AboutPage: React.FC = () => {
             </button>
             <button 
               onClick={() => {
-                const phoneNumber = '919876543210';
+                const phoneNumber = '918970308534';
                 const message = 'Hi! I would like to learn more about Raithal Adventures and your services.';
                 const whatsappURL = `https://wa.me/${phoneNumber}?text=${encodeURIComponent(message)}`;
                 window.open(whatsappURL, '_blank');
