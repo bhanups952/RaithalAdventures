@@ -309,12 +309,7 @@ const HomestayPage: React.FC = () => {
                 <p className="text-gray-700 mb-4">{experience.description}</p>
                 <div className="flex justify-between items-center">
                   <div>
-                    <span className="text-emerald-600 font-semibold">
-                      {experience.price}
-                    </span>
-                    <span className="text-gray-600 text-sm ml-2">
-                      ({experience.duration})
-                    </span>
+                    
                   </div>
                   <button
                     onClick={() => {
