@@ -389,7 +389,7 @@ const HomestayPage: React.FC = () => {
           <div className="flex flex-col sm:flex-row gap-4 justify-center">
             <button
               onClick={() => {
-                const phoneNumber = '919876543210';
+                const phoneNumber = '918970308534';
                 const message =
                   'Hi! I would like to book a stay at Raithal Homestay. Can you provide availability and details?';
                 const whatsappURL = `https://wa.me/${phoneNumber}?text=${encodeURIComponent(
