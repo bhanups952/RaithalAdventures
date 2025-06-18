@@ -261,7 +261,7 @@ const GalleryPage: React.FC = () => {
             </button>
             <button
               onClick={() => {
-                const phoneNumber = '919876543210';
+                const phoneNumber = '918970308534';
                 const message =
                   'Hi! Can you share more photos from recent treks? I would love to see more before booking.';
                 const whatsappURL = `https://wa.me/${phoneNumber}?text=${encodeURIComponent(
