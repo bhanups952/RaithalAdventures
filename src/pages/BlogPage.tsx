@@ -258,7 +258,7 @@ const BlogPage: React.FC = () => {
           </p>
           <button 
             onClick={() => {
-              const phoneNumber = '919876543210';
+              const phoneNumber = '918970308534';
               const message = 'Hi! I have a mountain story/experience I would like to share on your blog. Can you provide details about guest contributions?';
               const whatsappURL = `https://wa.me/${phoneNumber}?text=${encodeURIComponent(message)}`;
               window.open(whatsappURL, '_blank');
