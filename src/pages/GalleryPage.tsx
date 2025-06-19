@@ -119,6 +119,13 @@ const GalleryPage: React.FC = () => {
       title: 'Village Elder',
       description: 'Wisdom and stories from longtime village residents',
     },
+    {
+      id: 16,
+      src: 'https://raithaladventuresgallery.wordpress.com/wp-content/uploads/2025/06/img20231226101731_burst000_cover.jpg?auto=compress&cs=tinysrgb&w=800&h=600&fit=crop',
+      category: 'treks',
+      title: 'Mountain Campsite',
+      description: 'Camping under the stars in pristine wilderness',
+    },
   ];
 
   const filteredItems =
