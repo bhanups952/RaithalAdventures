@@ -25,7 +25,6 @@ function App() {
             <Route path="/trek/:trekId" element={<TrekPage />} />
             <Route path="/homestay" element={<HomestayPage />} />
             <Route path="/about" element={<AboutPage />} />
-            <Route path="/blog" element={<BlogPage />} />
             <Route path="/contact" element={<ContactPage />} />
             <Route path="/sustainability" element={<SustainabilityPage />} />
             <Route path="/gallery" element={<GalleryPage />} />
