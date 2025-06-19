@@ -72,7 +72,7 @@ const GalleryPage: React.FC = () => {
     },
     {
       id: 9,
-      src: 'https://images.pexels.com/photos/1595104/pexels-photo-1595104.jpeg?auto=compress&cs=tinysrgb&w=800&h=600&fit=crop',
+      src: 'https://raithaladventuresgallery.wordpress.com/wp-content/uploads/2025/06/img_20240609_191714.jpg?auto=compress&cs=tinysrgb&w=800&h=600&fit=crop',
       category: 'village',
       title: 'Organic Farm',
       description: 'Traditional farming methods in terraced fields',
