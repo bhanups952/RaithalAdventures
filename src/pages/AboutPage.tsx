@@ -33,13 +33,6 @@ const AboutPage: React.FC = () => {
       experience: '8+ years',
       description: 'Born and raised in Raithal, Devendra has been guiding trekkers through the Garhwal Himalayas for over 8 years. His deep knowledge of local trails and culture makes every journey special.'
     },
-    {
-      name: 'Ramesh Singh',
-      role: 'Senior Trek Guide',
-      image: 'https://images.pexels.com/photos/1043471/pexels-photo-1043471.jpeg?auto=compress&cs=tinysrgb&w=300&h=300&fit=crop',
-      experience: '6+ years',
-      description: 'Ramesh specializes in high-altitude treks and has extensive experience in the Kedarnath and Gangotri regions. His expertise ensures safe and memorable adventures.'
-    }
   ];
 
   const achievements = [
