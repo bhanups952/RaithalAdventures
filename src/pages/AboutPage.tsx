@@ -29,7 +29,7 @@ const AboutPage: React.FC = () => {
     {
       name: 'Praveen Singh',
       role: 'Founder & Lead Guide',
-      image: 'https://images.pexels.com/photos/1222271/pexels-photo-1222271.jpeg?auto=compress&cs=tinysrgb&w=300&h=300&fit=crop',
+      image: 'https://raithaladventuresgallery.wordpress.com/wp-content/uploads/2025/06/whatsapp-image-2025-06-18-at-14.38.49_b3c99ef5.jpg?auto=compress&cs=tinysrgb&w=300&h=300&fit=crop',
       experience: '8+ years',
       description: 'Born and raised in Raithal, Devendra has been guiding trekkers through the Garhwal Himalayas for over 8 years. His deep knowledge of local trails and culture makes every journey special.'
     },
