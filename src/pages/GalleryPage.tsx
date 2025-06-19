@@ -51,7 +51,7 @@ const GalleryPage: React.FC = () => {
     },
     {
       id: 6,
-      src: 'https://images.pexels.com/photos/3680219/pexels-photo-3680219.jpeg?auto=compress&cs=tinysrgb&w=800&h=600&fit=crop',
+      src: 'https://raithaladventuresgallery.wordpress.com/wp-content/uploads/2025/06/img20240226123903.jpg?auto=compress&cs=tinysrgb&w=800&h=600&fit=crop',
       category: 'culture',
       title: 'Ancient Temple',
       description: 'Centuries-old stone temple dedicated to local deities',
