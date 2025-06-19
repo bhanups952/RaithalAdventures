@@ -93,14 +93,14 @@ const GalleryPage: React.FC = () => {
     },
     {
       id: 12,
-      src: 'https://images.pexels.com/photos/1054218/pexels-photo-1054218.jpeg?auto=compress&cs=tinysrgb&w=800&h=600&fit=crop',
+      src: 'https://raithaladventuresgallery.wordpress.com/wp-content/uploads/2025/06/img20231015100318.jpg?auto=compress&cs=tinysrgb&w=800&h=600&fit=crop',
       category: 'village',
       title: 'Raithal Village',
       description: 'Panoramic view of the traditional mountain village',
     },
     {
       id: 13,
-      src: 'https://images.pexels.com/photos/1268855/pexels-photo-1268855.jpeg?auto=compress&cs=tinysrgb&w=800&h=600&fit=crop',
+      src: 'https://raithaladventuresgallery.wordpress.com/wp-content/uploads/2025/06/img20231015104804.jpg?auto=compress&cs=tinysrgb&w=800&h=600&fit=crop',
       category: 'treks',
       title: 'Glacial Terrain',
       description: 'High-altitude landscape near Gomukh glacier',
