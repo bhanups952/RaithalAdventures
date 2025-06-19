@@ -7,7 +7,7 @@ const TrekHighlights: React.FC = () => {
     {
       id: 'dayara-bugyal',
       name: 'Dayara Bugyal',
-      image: 'https://himalayanwarrior.com/wp-content/uploads/2022/06/uttarkashiwodkow-3.jpg?auto=compress&cs=tinysrgb&w=800&h=600&fit=crop',
+      image: 'https://raithaladventuresgallery.wordpress.com/wp-content/uploads/2025/06/img_2212.jpg?auto=compress&cs=tinysrgb&w=800&h=600&fit=crop',
       difficulty: 'Easy-Moderate',
       duration: '4 Days',
       altitude: '3,408m',
