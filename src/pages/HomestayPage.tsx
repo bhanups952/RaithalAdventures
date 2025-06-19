@@ -216,7 +216,7 @@ const HomestayPage: React.FC = () => {
           </div>
           <div className="grid grid-cols-2 gap-4">
             <img
-              src="https://images.pexels.com/photos/271816/pexels-photo-271816.jpeg?auto=compress&cs=tinysrgb&w=400&h=300&fit=crop"
+              src="https://lh3.googleusercontent.com/p/AF1QipMTzVBmXmTufVyDFIVJjFjxFg6j-YyXVmc67oyC=s680-w680-h510-rw?auto=compress&cs=tinysrgb&w=400&h=300&fit=crop"
               alt="Homestay room"
               className="w-full h-48 object-cover rounded-lg shadow-md"
             />
