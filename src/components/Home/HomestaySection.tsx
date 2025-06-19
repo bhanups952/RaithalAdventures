@@ -102,7 +102,7 @@ const HomestaySection: React.FC = () => {
                 className="w-full h-40 object-cover rounded-lg shadow-md hover:shadow-lg transition-shadow duration-300"
               />
               <img 
-                src="https://images.pexels.com/photos/1287142/pexels-photo-1287142.jpeg?auto=compress&cs=tinysrgb&w=400&h=300&fit=crop" 
+                src="https://lh3.googleusercontent.com/p/AF1QipNBQuoHgT5P9tNr811aGLgXuuxm4yIHgTLcotzd=s680-w680-h510-rw?auto=compress&cs=tinysrgb&w=400&h=300&fit=crop" 
                 alt="Mountain view"
                 className="w-full h-64 object-cover rounded-lg shadow-md hover:shadow-lg transition-shadow duration-300"
               />
