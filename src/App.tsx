@@ -7,7 +7,6 @@ import TreksPage from './pages/TreksPage';
 import TrekPage from './pages/TrekPage';
 import HomestayPage from './pages/HomestayPage';
 import AboutPage from './pages/AboutPage';
-import BlogPage from './pages/BlogPage';
 import ContactPage from './pages/ContactPage';
 import SustainabilityPage from './pages/SustainabilityPage';
 import GalleryPage from './pages/GalleryPage';
