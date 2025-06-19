@@ -93,7 +93,7 @@ const AboutPage: React.FC = () => {
                 className="w-full h-48 object-cover rounded-lg shadow-md"
               />
               <img 
-                src="https://images.pexels.com/photos/3680219/pexels-photo-3680219.jpeg?auto=compress&cs=tinysrgb&w=400&h=300&fit=crop" 
+                src="https://lh3.googleusercontent.com/p/AF1QipOCzX_pu7ma6IlFyVFs6fAgWQt9_M-7cq-y0pwb=s680-w680-h510-rw?auto=compress&cs=tinysrgb&w=400&h=300&fit=crop" 
                 alt="Local temple"
                 className="w-full h-48 object-cover rounded-lg shadow-md"
               />
