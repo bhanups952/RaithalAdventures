@@ -239,7 +239,7 @@ const AboutPage: React.FC = () => {
               </div>
               <div className="bg-emerald-200 p-4 rounded-lg mt-4">
                 <p className="text-emerald-800 text-sm">
-                  <strong>Note:</strong> We can arrange transportation from Dehradun to Raithal. 
+                  <strong>Note:</strong> We can arrange transportation from Dehradun to Raithal, but it has to paid seaprately. 
                   Contact us for pickup services and detailed travel guidance.
                 </p>
               </div>
