@@ -79,7 +79,7 @@ const GalleryPage: React.FC = () => {
     },
     {
       id: 10,
-      src: 'https://images.pexels.com/photos/1687845/pexels-photo-1687845.jpeg?auto=compress&cs=tinysrgb&w=800&h=600&fit=crop',
+      src: 'https://raithaladventuresgallery.wordpress.com/wp-content/uploads/2025/06/img20231003110813.jpg?auto=compress&cs=tinysrgb&w=800&h=600&fit=crop',
       category: 'treks',
       title: 'Sacred Lake',
       description: 'Crystal clear alpine lake surrounded by peaks',
