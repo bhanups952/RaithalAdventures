@@ -226,7 +226,7 @@ const HomestayPage: React.FC = () => {
               className="w-full h-48 object-cover rounded-lg shadow-md"
             />
             <img
-              src="https://images.pexels.com/photos/1287142/pexels-photo-1287142.jpeg?auto=compress&cs=tinysrgb&w=400&h=300&fit=crop"
+              src="https://raithaladventuresgallery.wordpress.com/wp-content/uploads/2025/06/img20241230085449.jpg?auto=compress&cs=tinysrgb&w=400&h=300&fit=crop"
               alt="Mountain view"
               className="w-full h-48 object-cover rounded-lg shadow-md col-span-2"
             />
