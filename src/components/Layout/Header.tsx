@@ -33,7 +33,6 @@ const Header: React.FC = () => {
     { name: 'Homestay', href: '/homestay' },
     { name: 'About', href: '/about' },
     { name: 'Gallery', href: '/gallery' },
-    { name: 'Blog', href: '/blog' },
     { name: 'Contact', href: '/contact' },
   ];
 
