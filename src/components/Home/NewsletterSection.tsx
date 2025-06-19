@@ -43,7 +43,7 @@ const NewsletterSection: React.FC = () => {
               <span className="block">Mountains</span>
             </h2>
             <p className="text-xl text-emerald-100 mb-8 leading-relaxed">
-              Join our newsletter to receive the latest updates on trek schedules,
+              Join our Whatsapp community to receive the latest updates on trek schedules,
               seasonal offers, weather conditions, and exclusive insights from
               our local mountain guides.
             </p>
