@@ -90,14 +90,14 @@ const HomestaySection: React.FC = () => {
                 className="w-full h-64 object-cover rounded-lg shadow-md hover:shadow-lg transition-shadow duration-300"
               />
               <img 
-                src="https://images.pexels.com/photos/1457842/pexels-photo-1457842.jpeg?auto=compress&cs=tinysrgb&w=400&h=200&fit=crop" 
+                src="https://lh3.googleusercontent.com/p/AF1QipNASykahL7WBaVH7Bem7p7JcEjU7Q3bDGJYHbWj=s680-w680-h510-rw?auto=compress&cs=tinysrgb&w=400&h=200&fit=crop" 
                 alt="Traditional meal"
                 className="w-full h-40 object-cover rounded-lg shadow-md hover:shadow-lg transition-shadow duration-300"
               />
             </div>
             <div className="space-y-4 pt-8">
               <img 
-                src="https://images.pexels.com/photos/271816/pexels-photo-271816.jpeg?auto=compress&cs=tinysrgb&w=400&h=200&fit=crop" 
+                src="https://lh3.googleusercontent.com/p/AF1QipPp50DLWNGdHrps1AQMk3pw6JAG0NJE5LtYj3hp=s680-w680-h510-rw?auto=compress&cs=tinysrgb&w=400&h=200&fit=crop" 
                 alt="Cozy room"
                 className="w-full h-40 object-cover rounded-lg shadow-md hover:shadow-lg transition-shadow duration-300"
               />
