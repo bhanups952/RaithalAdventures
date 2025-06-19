@@ -86,7 +86,7 @@ const GalleryPage: React.FC = () => {
     },
     {
       id: 11,
-      src: 'https://images.pexels.com/photos/1239291/pexels-photo-1239291.jpeg?auto=compress&cs=tinysrgb&w=800&h=600&fit=crop',
+      src: 'https://raithaladventuresgallery.wordpress.com/wp-content/uploads/2025/06/img20230817095001.jpg?auto=compress&cs=tinysrgb&w=800&h=600&fit=crop',
       category: 'culture',
       title: 'Local Family',
       description: 'Warm hospitality from our host family',
