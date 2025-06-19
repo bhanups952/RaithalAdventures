@@ -44,7 +44,7 @@ const GalleryPage: React.FC = () => {
     },
     {
       id: 5,
-      src: 'https://images.pexels.com/photos/1624496/pexels-photo-1624496.jpeg?auto=compress&cs=tinysrgb&w=800&h=600&fit=crop',
+      src: 'https://raithaladventuresgallery.wordpress.com/wp-content/uploads/2025/06/img_2213.jpg?auto=compress&cs=tinysrgb&w=800&h=600&fit=crop',
       category: 'treks',
       title: 'Mountain Trail',
       description: 'Well-marked paths through pristine forests',
@@ -58,14 +58,14 @@ const GalleryPage: React.FC = () => {
     },
     {
       id: 7,
-      src: 'https://images.pexels.com/photos/271816/pexels-photo-271816.jpeg?auto=compress&cs=tinysrgb&w=800&h=600&fit=crop',
+      src: 'https://raithaladventuresgallery.wordpress.com/wp-content/uploads/2025/06/img_2434.jpg?auto=compress&cs=tinysrgb&w=800&h=600&fit=crop',
       category: 'homestay',
       title: 'Cozy Guest Room',
       description: 'Comfortable accommodation with mountain views',
     },
     {
       id: 8,
-      src: 'https://images.pexels.com/photos/1287142/pexels-photo-1287142.jpeg?auto=compress&cs=tinysrgb&w=800&h=600&fit=crop',
+      src: 'https://raithaladventuresgallery.wordpress.com/wp-content/uploads/2025/06/img_2436.jpg?auto=compress&cs=tinysrgb&w=800&h=600&fit=crop',
       category: 'treks',
       title: 'Himalayan Sunset',
       description: 'Spectacular sunset views from high-altitude campsites',
