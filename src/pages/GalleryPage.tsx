@@ -107,14 +107,14 @@ const GalleryPage: React.FC = () => {
     },
     {
       id: 14,
-      src: 'https://images.pexels.com/photos/1761280/pexels-photo-1761280.jpeg?auto=compress&cs=tinysrgb&w=800&h=600&fit=crop',
+      src: 'https://raithaladventuresgallery.wordpress.com/wp-content/uploads/2025/06/img20240608193348.jpg?auto=compress&cs=tinysrgb&w=800&h=600&fit=crop',
       category: 'treks',
       title: 'Mountain Campsite',
       description: 'Camping under the stars in pristine wilderness',
     },
     {
       id: 15,
-      src: 'https://images.pexels.com/photos/1181519/pexels-photo-1181519.jpeg?auto=compress&cs=tinysrgb&w=800&h=600&fit=crop',
+      src: 'https://raithaladventuresgallery.wordpress.com/wp-content/uploads/2025/06/img20240810074356.jpg?auto=compress&cs=tinysrgb&w=800&h=600&fit=crop',
       category: 'culture',
       title: 'Village Elder',
       description: 'Wisdom and stories from longtime village residents',
