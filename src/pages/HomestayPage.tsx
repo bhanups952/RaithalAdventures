@@ -163,7 +163,7 @@ const HomestayPage: React.FC = () => {
       {/* Hero Section */}
       <div className="relative h-96 overflow-hidden">
         <img
-          src="https://lh3.googleusercontent.com/p/AF1QipNBQuoHgT5P9tNr811aGLgXuuxm4yIHgTLcotzd=s680-w680-h510-rw?auto=compress&cs=tinysrgb&w=1200&h=800&fit=crop"
+          src="https://raithaladventuresgallery.wordpress.com/wp-content/uploads/2025/06/img20240810074356.jpg?auto=compress&cs=tinysrgb&w=1200&h=800&fit=crop"
           alt="Raithal Homestay"
           className="w-full h-full object-cover"
         />
