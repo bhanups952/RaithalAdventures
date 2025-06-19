@@ -221,7 +221,7 @@ const HomestayPage: React.FC = () => {
               className="w-full h-48 object-cover rounded-lg shadow-md"
             />
             <img
-              src="https://images.pexels.com/photos/1457842/pexels-photo-1457842.jpeg?auto=compress&cs=tinysrgb&w=400&h=300&fit=crop"
+              src="https://lh3.googleusercontent.com/p/AF1QipPp50DLWNGdHrps1AQMk3pw6JAG0NJE5LtYj3hp=s680-w680-h510-rw?auto=compress&cs=tinysrgb&w=400&h=300&fit=crop"
               alt="Traditional meal"
               className="w-full h-48 object-cover rounded-lg shadow-md"
             />
