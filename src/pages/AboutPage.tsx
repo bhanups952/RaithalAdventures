@@ -88,7 +88,7 @@ const AboutPage: React.FC = () => {
             </div>
             <div className="grid grid-cols-2 gap-4">
               <img 
-                src="https://images.pexels.com/photos/1732414/pexels-photo-1732414.jpeg?auto=compress&cs=tinysrgb&w=400&h=300&fit=crop" 
+                src="https://lh3.googleusercontent.com/p/AF1QipMTzVBmXmTufVyDFIVJjFjxFg6j-YyXVmc67oyC=s680-w680-h510-rw?auto=compress&cs=tinysrgb&w=400&h=300&fit=crop" 
                 alt="Village life"
                 className="w-full h-48 object-cover rounded-lg shadow-md"
               />
