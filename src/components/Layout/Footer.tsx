@@ -30,7 +30,7 @@ const Footer: React.FC = () => {
     <Facebook className="h-5 w-5 text-gray-400" />
   </a>
   <a
-    href="https://www.instagram.com/your-handle" // 🔁 Replace with your IG link
+    href="https://www.instagram.com/raithal_barbeque_homestaye/" // 🔁 Replace with your IG link
     target="_blank"
     rel="noopener noreferrer"
     aria-label="Instagram"
