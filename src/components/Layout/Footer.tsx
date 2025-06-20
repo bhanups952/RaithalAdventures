@@ -1,6 +1,6 @@
 import React from 'react';
 import { Link } from 'react-router-dom';
-import { Mountain, Phone, Mail, MapPin, Facebook, Instagram, Twitter } from 'lucide-react';
+import { Mountain, Phone, Mail, MapPin, Facebook, Instagram, Twitter, MessageCircle } from 'lucide-react';
 
 const Footer: React.FC = () => {
   return (
@@ -72,22 +72,19 @@ const Footer: React.FC = () => {
           </div>
         </div>
 
-        {/* Newsletter */}
-        <div className="mt-8 pt-8 border-t border-gray-800">
-          <div className="text-center">
-            <h3 className="text-lg font-semibold mb-4">Stay Updated</h3>
-            <p className="text-gray-300 mb-4">Subscribe to our newsletter for the latest trek updates and seasonal offers</p>
-            <div className="flex max-w-md mx-auto">
-              <input
-                type="email"
-                placeholder="Enter your email"
-                className="flex-1 px-4 py-2 bg-gray-800 border border-gray-700 rounded-l-md focus:outline-none focus:ring-2 focus:ring-emerald-400 focus:border-transparent"
-              />
-              <button className="px-6 py-2 bg-emerald-600 text-white rounded-r-md hover:bg-emerald-700 transition-colors">
-                Subscribe
-              </button>
-            </div>
-          </div>
+        {/* WhatsApp CTA Section */}
+        <div className="mt-12 pt-8 border-t border-gray-800 text-center">
+          <h3 className="text-lg font-semibold mb-4">Talk to Us on WhatsApp</h3>
+          <p className="text-gray-300 mb-4">Instant queries, planning help, or just to say hi!</p>
+          <a
+            href="https://wa.me/918970308534?text=Hi%2C%20I%20want%20to%20know%20more%20about%20your%20treks%20and%20homestay%20options."
+            target="_blank"
+            rel="noopener noreferrer"
+            className="inline-flex items-center gap-2 bg-green-600 text-white px-6 py-3 rounded-lg text-sm font-medium hover:bg-green-700 transition-colors"
+          >
+            <MessageCircle className="h-5 w-5" />
+            Message Us on WhatsApp
+          </a>
         </div>
 
         {/* Copyright */}
