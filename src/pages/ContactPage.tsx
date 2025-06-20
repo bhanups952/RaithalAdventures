@@ -45,7 +45,7 @@ const ContactPage: React.FC = () => {
     {
       icon: Phone,
       title: 'Phone',
-      details: ['+91 9876543210', '+91 8765432109'],
+      details: ['+91 8970308534', '+91 6369543898'],
       description: 'Available 24/7 for emergencies'
     },
     {
