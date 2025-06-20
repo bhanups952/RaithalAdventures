@@ -384,7 +384,6 @@ const HomestayPage: React.FC = () => {
               <div className="text-sm text-emerald-200">Includes all meals</div>
             </div>
            
-            </div>
           </div>
           <div className="flex flex-col sm:flex-row gap-4 justify-center">
             <button
