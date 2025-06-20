@@ -51,12 +51,12 @@ const Header: React.FC = () => {
           {/* Logo */}
 <Link to="/" className="flex flex-col items-center space-y-1 pt-2">
   <img
-    src="https://github.com/bhanups952/RaithalAdventures/blob/main/Raithal.svg"
+    src="/Raithal.svg"
     alt="Raithal Logo"
     className={`h-6 transition duration-300 ${scrolled ? 'invert-0' : 'invert'}`}
   />
   <img
-    src="https://github.com/bhanups952/RaithalAdventures/blob/main/ADVENTURES.svg"
+    src="/ADVENTURES.svg"
     alt="Adventures Logo"
     className="h-4"
   />
