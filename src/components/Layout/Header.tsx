@@ -58,7 +58,7 @@ const Header: React.FC = () => {
   <img
     src="/ADVENTURES.svg"
     alt="Adventures Logo"
-    className="h-2"
+    className="h-4"
   />
 </Link>
 
