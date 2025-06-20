@@ -49,7 +49,7 @@ const TrekPage: React.FC = () => {
           day: 1,
           title: 'Dehradun to Raithal Village',
           description: 'Drive from Dehradun to Raithal village (200 km, 7-8 hours). Check into homestay, evening briefing about the trek.',
-          meals: 'Lunch, Dinner',
+          meals: 'Dinner',
           accommodation: 'Homestay',
           activities: ['Scenic drive through Uttarkashi', 'Village orientation', 'Equipment check']
         },
@@ -73,14 +73,14 @@ const TrekPage: React.FC = () => {
           day: 4,
           title: 'Gui to Raithal to Dehradun',
           description: 'Early morning sunrise, trek back to Raithal, and drive to Dehradun. Trip concludes by evening.',
-          meals: 'Breakfast, Lunch',
+          meals: 'Breakfast',
           accommodation: 'N/A',
           activities: ['Sunrise viewing', 'Descent trek', 'Return journey']
         }
       ],
       included: [
         'Accommodation (homestay and camping)',
-        'All meals from Day 1 lunch to Day 4 lunch',
+        'All meals which are included in the itinerary',
         'Professional trek guide',
         'Camping equipment (tents, sleeping bags, mats)',
         'First aid kit and safety equipment',
@@ -152,7 +152,7 @@ const TrekPage: React.FC = () => {
     day: 1,
     title: 'Dehradun to Raithal',
     description: 'Drive to Raithal village, check into homestay, evening village walk and briefing.',
-    meals: 'Lunch, Dinner',
+    meals: 'Dinner',
     accommodation: 'Homestay',
     activities: ['Village exploration', 'Cultural interaction', 'Trek briefing']
   },
@@ -192,7 +192,7 @@ const TrekPage: React.FC = () => {
     day: 6,
     title: 'Gui to Raithal and drive back to Dehradun',
     description: 'Final descent to Raithal followed by a scenic drive back to Dehradun.',
-    meals: 'Breakfast, Lunch',
+    meals: 'Breakfast',
     accommodation: 'N/A',
     activities: ['Trek descent', 'Village farewell', 'Return journey']
   }
@@ -200,17 +200,18 @@ const TrekPage: React.FC = () => {
 
       included: [
         'Accommodation (homestay and camping)',
-        'All meals as per itinerary',
-        'Professional guide',
-        'Camping equipment',
-        'Transportation',
-        'First aid kit'
+        'All meals which are included in the itinerary',
+        'Professional trek guide',
+        'Camping equipment (tents, sleeping bags, mats)',
+        'First aid kit and safety equipment',
       ],
       excluded: [
-        'Personal trekking gear',
+        'Transportation from Dehradun to Dehradun',
+        'Personal trekking gear (shoes, backpack, clothes)',
         'Travel insurance',
         'Personal expenses',
-        'Tips for staff'
+        'Tips for guide and support staff',
+        'Any meals not mentioned in inclusions',
       ],
       packingList: [
         'Comfortable trekking shoes',
@@ -265,7 +266,7 @@ const TrekPage: React.FC = () => {
     day: 1,
     title: 'Dehradun to Raithal',
     description: 'Drive from Dehradun to Raithal village. Settle into your homestay and explore the surroundings.',
-    meals: 'Lunch, Dinner',
+    meals: 'Dinner',
     accommodation: 'Homestay',
     activities: ['Village exploration', 'Cultural interaction', 'Trek briefing']
   },
@@ -313,23 +314,26 @@ const TrekPage: React.FC = () => {
     day: 7,
     title: 'Bhangeli to Dehradun',
     description: 'Continue your descent through forest trails to the village of Bhangeli and settle into a homestay.',
-    meals: 'Breakfast, Lunch, Dinner',
+    meals: 'Breakfast',
     accommodation: 'Homestay',
     activities: ['Forest trek', 'Cultural interaction', 'Evening relaxation']
   }
 ],
 
       included: [
-        'Transportation',
-        'Camping equipment',
-        'All meals as per itinerary',
-        'Professional guide',
-        'First aid kit'
+        'Accommodation (homestay and camping)',
+        'All meals which are included in the itinerary',
+        'Professional trek guide',
+        'Camping equipment (tents, sleeping bags, mats)',
+        'First aid kit and safety equipment',
       ],
       excluded: [
-        'Personal gear',
-        'Insurance',
-        'Personal expenses'
+        'Transportation from Dehradun to Dehradun',
+        'Personal trekking gear (shoes, backpack, clothes)',
+        'Travel insurance',
+        'Personal expenses',
+        'Tips for guide and support staff',
+        'Any meals not mentioned in inclusions',
       ],
       packingList: [
         'Trekking shoes',
@@ -382,7 +386,7 @@ const TrekPage: React.FC = () => {
     day: 1,
     title: 'Dehradun to Agoda',
     description: 'Drive to Sangamchatti and begin a short trek to the village of Agoda. Settle into your homestay and explore the area.',
-    meals: 'Lunch, Dinner',
+    meals: 'Dinner',
     accommodation: 'Homestay',
     activities: ['Village walk', 'Acclimatization', 'Local interaction']
   },
@@ -428,20 +432,19 @@ const TrekPage: React.FC = () => {
   }
 ],
       included: [
-        'All transportation',
-        'Accommodation and camping',
-        'All meals as per itinerary',
-        'Professional guide and support staff',
-        'Camping equipment',
-        'First aid and safety equipment',
-        'Forest permits'
+        'Accommodation (homestay and camping)',
+        'All meals which are included in the itinerary',
+        'Professional trek guide',
+        'Camping equipment (tents, sleeping bags, mats)',
+        'First aid kit and safety equipment',
       ],
       excluded: [
-        'Personal trekking equipment',
+        'Transportation from Dehradun to Dehradun',
+        'Personal trekking gear (shoes, backpack, clothes)',
         'Travel insurance',
-        'Fishing equipment (can be arranged)',
         'Personal expenses',
-        'Tips for staff'
+        'Tips for guide and support staff',
+        'Any meals not mentioned in inclusions',
       ],
       packingList: [
         'Good trekking boots',
@@ -501,7 +504,7 @@ const TrekPage: React.FC = () => {
     day: 1,
     title: 'Dehradun to Gangotri',
     description: 'Drive from Dehradun to Gangotri (3,100m), a sacred town and the starting point of the trek. Acclimatize and explore the temple town.',
-    meals: 'Lunch, Dinner',
+    meals: 'Dinner',
     accommodation: 'Guesthouse',
     activities: ['Scenic drive', 'Temple visit', 'Acclimatization walk']
   },
@@ -541,27 +544,25 @@ const TrekPage: React.FC = () => {
     day: 6,
     title: 'Bhoj Kharak to Gangotri and drive to Dehradun',
     description: 'Final descent to Gangotri, followed by the return drive to Dehradun.',
-    meals: 'Breakfast, Lunch',
+    meals: 'Breakfast',
     accommodation: 'N/A',
     activities: ['Trek descent', 'Scenic return drive']
   }
 ],
       included: [
-        'All transportation',
-        'Accommodation (guesthouse and camping)',
-        'All meals as per itinerary',
-        'Professional high-altitude guide',
-        'Technical climbing support',
-        'High-altitude camping equipment',
-        'Safety equipment and first aid',
-        'Permits and fees'
+        'Accommodation (homestay and camping)',
+        'All meals which are included in the itinerary',
+        'Professional trek guide',
+        'Camping equipment (tents, sleeping bags, mats)',
+        'First aid kit and safety equipment',
       ],
       excluded: [
-        'Personal mountaineering equipment',
-        'High-altitude insurance (mandatory)',
+        'Transportation from Dehradun to Dehradun',
+        'Personal trekking gear (shoes, backpack, clothes)',
+        'Travel insurance',
         'Personal expenses',
-        'Tips for guide and support team',
-        'Emergency evacuation costs'
+        'Tips for guide and support staff',
+        'Any meals not mentioned in inclusions',
       ],
       packingList: [
         'High-altitude mountaineering boots',
@@ -621,7 +622,7 @@ const TrekPage: React.FC = () => {
     day: 1,
     title: 'Dehradun to Gangotri',
     description: 'Drive from Dehradun to the sacred town of Gangotri (3,100m). Explore the temple and acclimatize for the trek ahead.',
-    meals: 'Lunch, Dinner',
+    meals: 'Dinner',
     accommodation: 'Guesthouse',
     activities: ['Scenic drive', 'Temple visit', 'Evening walk']
   },
@@ -661,29 +662,25 @@ const TrekPage: React.FC = () => {
     day: 6,
     title: 'Bhojbasa to Gangotri and drive to Dehradun',
     description: 'Trek back to Gangotri and continue your return drive to Dehradun by evening.',
-    meals: 'Breakfast, Lunch',
+    meals: 'Breakfast',
     accommodation: 'N/A',
     activities: ['Trek end', 'Return drive', 'Farewell moments']
   }
 ],
       included: [
-        'All transportation',
-        'Accommodation (guesthouse and camping)',
-        'All meals as per itinerary',
-        'Professional high-altitude guide',
-        'Technical support staff',
-        'High-altitude camping equipment',
-        'Safety and rescue equipment',
-        'All permits and fees',
-        'Oxygen cylinder for emergency'
+        'Accommodation (homestay and camping)',
+        'All meals which are included in the itinerary',
+        'Professional trek guide',
+        'Camping equipment (tents, sleeping bags, mats)',
+        'First aid kit and safety equipment',
       ],
       excluded: [
-        'Personal mountaineering equipment',
-        'High-altitude insurance (mandatory)',
+        'Transportation from Dehradun to Dehradun',
+        'Personal trekking gear (shoes, backpack, clothes)',
+        'Travel insurance',
         'Personal expenses',
-        'Tips for guide and support team',
-        'Emergency evacuation costs',
-        'Satellite phone rental'
+        'Tips for guide and support staff',
+        'Any meals not mentioned in inclusions',
       ],
       packingList: [
         'High-altitude mountaineering boots',
