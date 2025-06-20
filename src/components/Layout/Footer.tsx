@@ -49,6 +49,7 @@ const Footer: React.FC = () => {
   </a>
 </div>
 
+          </div>
 
           {/* Quick Links */}
           <div>
