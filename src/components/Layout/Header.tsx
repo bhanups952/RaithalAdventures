@@ -50,11 +50,16 @@ const Header: React.FC = () => {
         <div className="flex justify-between items-center h-16">
           {/* Logo */}
           <Link to="/" className="flex items-center space-x-2">
-            <RaithalLogo className={`h-8 w-8 ${scrolled ? 'text-emerald-600' : 'text-white'}`} />
-            <div className={`text-xl font-bold ${baseTextClass}`}>
-              Raithal <span className="text-emerald-600">Adventures</span>
-            </div>
-          </Link>
+  <img
+    src="/src/components/logo.svg" // ✅ relative to root in dev
+    alt="Raithal Adventures Logo"
+    className="h-8 w-8"
+  />
+  <div className={`text-xl font-bold ${baseTextClass}`}>
+    Raithal <span className="text-emerald-600">Adventures</span>
+  </div>
+</Link>
+
 
           {/* Desktop Navigation */}
           <div className="hidden md:flex items-center space-x-8">
