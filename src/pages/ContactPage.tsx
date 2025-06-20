@@ -51,7 +51,7 @@ const ContactPage: React.FC = () => {
     {
       icon: Mail,
       title: 'Email',
-      details: ['info@raithaladventures.com', 'bookings@raithaladventures.com'],
+      details: ['raithaladventures@gmail.com', 'praveensingh8812@gmail.com'],
       description: 'We respond within 2-4 hours'
     },
     {
@@ -82,16 +82,9 @@ const ContactPage: React.FC = () => {
       color: 'bg-green-500 hover:bg-green-600'
     },
     {
-      title: 'Emergency Contact',
-      description: 'For urgent assistance during treks',
-      action: () => window.open('tel:+918970308534'),
-      icon: Phone,
-      color: 'bg-red-500 hover:bg-red-600'
-    },
-    {
       title: 'Get Directions',
       description: 'GPS navigation to our location',
-      action: () => window.open('https://maps.google.com/?q=30.8629,78.5622'),
+      action: () => window.open('https://maps.app.goo.gl/7banHv9QmhMTH3z28'),
       icon: Navigation,
       color: 'bg-blue-500 hover:bg-blue-600'
     }
