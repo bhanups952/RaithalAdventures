@@ -19,12 +19,36 @@ const Footer: React.FC = () => {
               Experience the pristine beauty of the Himalayas with our expertly guided treks 
               and authentic homestay experiences in the heart of Uttarakhand.
             </p>
-            <div className="flex space-x-4">
-              <Facebook className="h-5 w-5 text-gray-400 hover:text-emerald-400 cursor-pointer transition-colors" />
-              <Instagram className="h-5 w-5 text-gray-400 hover:text-emerald-400 cursor-pointer transition-colors" />
-              <Twitter className="h-5 w-5 text-gray-400 hover:text-emerald-400 cursor-pointer transition-colors" />
-            </div>
-          </div>
+<div className="flex space-x-4">
+  <a
+    href="https://www.facebook.com/your-page" // 🔁 Replace with your FB link
+    target="_blank"
+    rel="noopener noreferrer"
+    aria-label="Facebook"
+    className="hover:text-emerald-400 transition-colors"
+  >
+    <Facebook className="h-5 w-5 text-gray-400" />
+  </a>
+  <a
+    href="https://www.instagram.com/your-handle" // 🔁 Replace with your IG link
+    target="_blank"
+    rel="noopener noreferrer"
+    aria-label="Instagram"
+    className="hover:text-emerald-400 transition-colors"
+  >
+    <Instagram className="h-5 w-5 text-gray-400" />
+  </a>
+  <a
+    href="https://twitter.com/your-handle" // 🔁 Replace with your Twitter/X link
+    target="_blank"
+    rel="noopener noreferrer"
+    aria-label="Twitter"
+    className="hover:text-emerald-400 transition-colors"
+  >
+    <Twitter className="h-5 w-5 text-gray-400" />
+  </a>
+</div>
+
 
           {/* Quick Links */}
           <div>
