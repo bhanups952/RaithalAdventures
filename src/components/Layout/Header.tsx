@@ -51,7 +51,7 @@ const Header: React.FC = () => {
       <nav className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
         <div className="flex justify-between items-center h-16">
           {/* Logo */}
-<Link to="/" className="flex flex-col items-center space-y-2 pt-2">
+<Link to="/" className="flex flex-col items-center space-y-1 pt-2">
   <img
     src={raithalLogo}
     alt="Raithal Logo"
