@@ -121,29 +121,29 @@ const HomestayPage: React.FC = () => {
   ];
 
   const reviews = [
-    {
-      name: 'Sarah Johnson',
-      location: 'London, UK',
+   {
+      name: 'Amit Kumar',
+      location: 'Trekking',
       rating: 5,
-      text: 'The most authentic mountain experience! The family treated us like their own children. The food was incredible and the views from our room were breathtaking.',
-      image:
-        'https://images.pexels.com/photos/1181519/pexels-photo-1181519.jpeg?auto=compress&cs=tinysrgb&w=80&h=80&fit=crop',
+      text: 'As I visit this place first time in my life I found it very एडवेंचर full ट्रेक for dyara bugyal which start from this village. We can reach this village वाया our personal vehicle. After reaching at Raithal We start our journey for Gui base camp a around 2 pm and We will at your डेस्टिनेशन at 18:00 Gui base camp where We see sunset View which is really very amazing I love it.',
+      image: 'https://lh3.googleusercontent.com/geougc-cs/AB3l90C9MYtdqsrhDT1QiRYISLHUL4tYulZtov7At4tomAbwo7GTmjbWG0O2OKew6GW9upRiR5f2c-icmmdxp1CrvKeYTydX2ahqqSZZB8KDUqQFVqtzVzINJJKe6ITZHRlBKxMMi_QA=s125-p-k-rw?auto=compress&cs=tinysrgb&w=100&h=100&fit=crop',
+      trek: 'Dayara Bugyal Trek'
     },
     {
-      name: 'Rajesh & Priya',
-      location: 'Mumbai, India',
+      name: 'Viktor Ivanov',
+      location: 'Bulgeria',
       rating: 5,
-      text: 'Perfect getaway from city life. The warmth of the hosts and the serenity of the mountains made our anniversary truly special.',
-      image:
-        'https://images.pexels.com/photos/1239291/pexels-photo-1239291.jpeg?auto=compress&cs=tinysrgb&w=80&h=80&fit=crop',
+      text: 'It is not only the place, the people are what make it exceptional. 👬Praveen, thank you for being not only a host but also a friend. 🤔 P.s. Your cooking is exceptional. After your meals, it is hard to find a good restaurant in India. Keep up the great work, and I hope to see you soon!',
+      image: 'https://lh3.googleusercontent.com/a-/ALV-UjU7RA1W810UTuH5EBsrtti-b5FyrQGeoS9I-Knm3HfsjGs2RlOL=s40-c-rp-mo-br100?auto=compress&cs=tinysrgb&w=100&h=100&fit=crop',
+      trek: 'Kedartal Trek'
     },
     {
-      name: 'Michael Chen',
-      location: 'Singapore',
+      name: 'Vilas Pote',
+      location: 'Mumbai',
       rating: 5,
-      text: 'An unforgettable cultural immersion. Learned so much about local traditions and enjoyed the most delicious home-cooked meals.',
-      image:
-        'https://images.pexels.com/photos/1222271/pexels-photo-1222271.jpeg?auto=compress&cs=tinysrgb&w=80&h=80&fit=crop',
+      text: 'We stayed at this beautiful place. Has view of Himalayas peak. Trek arrangement by Praveen were excellent. Food, tent and the trek guide was par excellence. Raithal trek in meadows & snow is nice experience.',
+      image: 'https://lh3.googleusercontent.com/a-/ALV-UjXG6aF1uvAkOQt0Y_BIOY-QNb-pLEbe2v5hj8udxrcm3u5sj-_pkw=s40-c-rp-mo-br100',
+      trek: 'Surya Top Trek'
     },
   ];
 
@@ -354,6 +354,18 @@ const HomestayPage: React.FC = () => {
               </div>
             ))}
           </div>
+             <div className="text-center mt-12">
+
+            <button 
+              onClick={() => {
+                const whatsappURL = `https://www.google.com/search?sca_esv=6b586cb292188507&rlz=1C1CHBF_enIN1046IN1046&sxsrf=AE3TifNKue5IEbqZOQ55n6UIabIrabQNkQ:1750239243995&q=Raithal+Adventures&si=AMgyJEtREmoPL4P1I5IDCfuA8gybfVI2d5Uj7QMwYCZHKDZ-E9UAnCXJ6qUt3M14oBTRBXNv0LLe8ET5hYYH3ItUJLG8ns8wZLCs_wK2g259WtBGtf3VteQq3ZBZ6E4DjG8hrJ0uYvgQMJAaZKTbpwlVAZYCEw6zlA%3D%3D&sa=X&ved=2ahUKEwiH7KOj1fqNAxXvTWwGHcW8MKoQrrQLegQIMhAA&biw=1920&bih=945&dpr=1`;
+                window.open(whatsappURL, '_blank');
+              }}
+              className="w-full bg-green-500 text-white py-4 px-4 rounded-lg font-medium hover:bg-green-600 transition-colors duration-200"
+            >
+              Check reviews on Google
+            </button>
+        </div>
         </div>
 
         {/* Booking Section */}
