@@ -178,7 +178,7 @@ const ContactPage: React.FC = () => {
             </div>
 
             <div className="bg-emerald-50 rounded-lg p-6">
-              <h3 className="text-2xl font-bold text-gray-900 mb-4">WhatsApp QR Code</h3>
+              <h3 className="text-xl font-bold text-gray-900 mb-4">WhatsApp QR Code</h3>
               <div className="bg-white p-4 rounded-lg text-center">
                 <div className="w-32 h-32 bg-gray-200 rounded-lg mx-auto mb-4 flex items-center justify-center">
                   <MessageCircle className="h-16 w-16 text-gray-400" />
