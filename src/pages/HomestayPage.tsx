@@ -377,7 +377,7 @@ const HomestayPage: React.FC = () => {
             Book your stay at Raithal Homestay and experience authentic
             Himalayan hospitality
           </p>
-          <div className="grid grid-cols-1 md:grid-cols-3 gap-6 mb-8">
+          <div className="text-center">
             <div className="text-center">
               <div className="text-2xl font-bold mb-2">₹800</div>
               <div className="text-emerald-100">Per person per night</div>
