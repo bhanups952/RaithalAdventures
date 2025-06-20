@@ -1,6 +1,7 @@
 import React, { useState, useEffect } from 'react';
 import { Link, useLocation } from 'react-router-dom';
-import { Menu, X, Mountain } from 'lucide-react';
+import { Menu, X } from 'lucide-react';
+import { ReactComponent as RaithalLogo } from './Raithaladventureslogo.svg'; // ✅ SVG import
 
 const Header: React.FC = () => {
   const [isMenuOpen, setIsMenuOpen] = useState(false);
@@ -48,8 +49,8 @@ const Header: React.FC = () => {
       <nav className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
         <div className="flex justify-between items-center h-16">
           {/* Logo */}
-          <Link to="/home/project/src/components/Raithaladventureslogo.svg" className="flex items-center space-x-2">
-            <Mountain className={`h-8 w-8 ${scrolled ? 'text-emerald-600' : 'text-white'}`} />
+          <Link to="/" className="flex items-center space-x-2">
+            <RaithalLogo className={`h-8 w-8 ${scrolled ? 'text-emerald-600' : 'text-white'}`} />
             <div className={`text-xl font-bold ${baseTextClass}`}>
               Raithal <span className="text-emerald-600">Adventures</span>
             </div>
