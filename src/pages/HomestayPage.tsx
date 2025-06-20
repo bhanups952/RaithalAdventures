@@ -379,7 +379,7 @@ const HomestayPage: React.FC = () => {
           </p>
           <div className="grid grid-cols-1 md:grid-cols-3 gap-6 mb-8">
             <div className="text-center">
-              <div className="text-2xl font-bold mb-2">₹1,500</div>
+              <div className="text-2xl font-bold mb-2">₹800</div>
               <div className="text-emerald-100">Per person per night</div>
               <div className="text-sm text-emerald-200">Includes all meals</div>
             </div>
