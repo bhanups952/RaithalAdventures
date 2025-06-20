@@ -55,9 +55,6 @@ const Header: React.FC = () => {
     alt="Raithal Adventures Logo"
     className="h-8 w-8"
   />
-  <div className={`text-xl font-bold ${baseTextClass}`}>
-    Raithal <span className="text-emerald-600">Adventures</span>
-  </div>
 </Link>
 
 
