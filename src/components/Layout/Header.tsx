@@ -53,7 +53,7 @@ const Header: React.FC = () => {
   <img
     src="/src/components/logo.svg" // ✅ relative to root in dev
     alt="Raithal Adventures Logo"
-    className="h-8 w-8"
+    className="h-20 w-20"
   />
 </Link>
 
