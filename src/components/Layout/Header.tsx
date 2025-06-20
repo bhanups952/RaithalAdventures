@@ -49,11 +49,16 @@ const Header: React.FC = () => {
       <nav className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
         <div className="flex justify-between items-center h-16">
           {/* Logo */}
-          <Link to="/" className="flex items-center space-x-2">
+<Link to="/" className="flex flex-col items-start space-y-0 leading-tight">
   <img
-    src="/src/components/logo.svg" // ✅ relative to root in dev
-    alt="Raithal Adventures Logo"
-    className="h-60 w-60"
+    src={scrolled ? "/Raithal.svg" : "/Raithal.svg"}
+    alt="Raithal Logo"
+    className={`h-6 transition-colors duration-300 ${scrolled ? 'invert-0' : 'invert'}`} // invert makes white
+  />
+  <img
+    src="/ADVENTURES.svg"
+    alt="Adventures Logo"
+    className="h-4"
   />
 </Link>
 
