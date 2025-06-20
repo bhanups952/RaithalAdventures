@@ -1,7 +1,9 @@
 import React, { useState, useEffect } from 'react';
 import { Link, useLocation } from 'react-router-dom';
 import { Menu, X } from 'lucide-react';
-import { ReactComponent as RaithalLogo } from './Raithaladventureslogo.svg'; // ✅ SVG import
+import raithalLogo from '/src/assets/Raithal.svg';
+import adventuresLogo from '/src/assets/ADVENTURES.svg';
+
 
 const Header: React.FC = () => {
   const [isMenuOpen, setIsMenuOpen] = useState(false);
@@ -49,18 +51,19 @@ const Header: React.FC = () => {
       <nav className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
         <div className="flex justify-between items-center h-16">
           {/* Logo */}
-<Link to="/" className="flex flex-col items-center space-y-1 pt-2">
+<Link to="/" className="flex flex-col items-center space-y-2 pt-2">
   <img
-    src="/Raithal.svg"
+    src={raithalLogo}
     alt="Raithal Logo"
     className={`h-6 transition duration-300 ${scrolled ? 'invert-0' : 'invert'}`}
   />
   <img
-    src="/ADVENTURES.svg"
+    src={adventuresLogo}
     alt="Adventures Logo"
     className="h-4"
   />
 </Link>
+
 
 
           {/* Desktop Navigation */}
