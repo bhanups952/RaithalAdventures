@@ -383,19 +383,7 @@ const HomestayPage: React.FC = () => {
               <div className="text-emerald-100">Per person per night</div>
               <div className="text-sm text-emerald-200">Includes all meals</div>
             </div>
-            <div className="text-center">
-              <div className="text-2xl font-bold mb-2">₹2,800</div>
-              <div className="text-emerald-100">Private room per night</div>
-              <div className="text-sm text-emerald-200">
-                Twin sharing with meals
-              </div>
-            </div>
-            <div className="text-center">
-              <div className="text-2xl font-bold mb-2">₹5,000</div>
-              <div className="text-emerald-100">Family package</div>
-              <div className="text-sm text-emerald-200">
-                2 adults + 2 children
-              </div>
+           
             </div>
           </div>
           <div className="flex flex-col sm:flex-row gap-4 justify-center">
