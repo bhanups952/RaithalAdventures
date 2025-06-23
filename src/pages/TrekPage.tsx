@@ -127,7 +127,7 @@ const TrekPage: React.FC = () => {
       gallery: [
         'https://himalayanwarrior.com/wp-content/uploads/2022/06/uttarkashiwodkow-3.jpg',
         'https://bluemountainscottages.com/wp-content/uploads/2021/03/Dayara-Bugyal-Trek-in-Uttarakhand.jpg',
-        'https://images.pexels.com/photos/1303081/pexels-photo-1303081.jpeg',
+        'https://open.spotify.com/episode/2ybU1zozhvCJoJxk39C3A7?si=VYlsxhiSRe6UoiX8prYwGg',
         'https://images.pexels.com/photos/1761279/pexels-photo-1761279.jpeg'
       ]
     },
