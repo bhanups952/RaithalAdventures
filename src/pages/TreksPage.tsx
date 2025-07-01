@@ -1,6 +1,7 @@
 import React, { useState } from 'react';
 import { Link } from 'react-router-dom';
 import { MapPin, Clock, TrendingUp, Users, Mountain, Calendar, Star, Filter, Search } from 'lucide-react';
+import SEOHead from '../components/SEO/SEOHead';
 
 const TreksPage: React.FC = () => {
   const [selectedDifficulty, setSelectedDifficulty] = useState('All');
@@ -127,6 +128,13 @@ const TreksPage: React.FC = () => {
 
   return (
     <div className="min-h-screen bg-white">
+      <SEOHead 
+        title="Himalayan Treks in Uttarakhand - Dayara Bugyal, Kedartal & More | Raithal Adventures"
+        description="Explore the best Himalayan treks in Uttarakhand with expert guides. Dayara Bugyal, Kedartal, Gomukh Tapovan, Dodital and more. Book your adventure today!"
+        keywords="Himalayan treks, Uttarakhand trekking, Dayara Bugyal trek, Kedartal trek, Gomukh Tapovan, mountain trekking India, guided treks"
+        url="https://raithaladventures.in/treks"
+      />
+
       {/* Hero Section */}
       <div className="relative h-64 overflow-hidden">
         <img 

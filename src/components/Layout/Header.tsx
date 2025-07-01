@@ -36,6 +36,7 @@ const Header: React.FC = () => {
     { name: 'Homestay', href: '/homestay' },
     { name: 'About', href: '/about' },
     { name: 'Gallery', href: '/gallery' },
+    { name: 'Blog', href: '/blogs' },
     { name: 'Contact', href: '/contact' },
   ];
 
@@ -100,7 +101,8 @@ const Header: React.FC = () => {
                   <Link
                     to={item.href}
                     className={`px-3 py-2 text-sm font-medium transition-colors duration-200 ${
-                      location.pathname === item.href
+                      location.pathname === item.href || 
+                      (item.href === '/blogs' && location.pathname.startsWith('/blog'))
                         ? 'text-emerald-600'
                         : `${baseTextClass} ${hoverTextClass}`
                     }`}
